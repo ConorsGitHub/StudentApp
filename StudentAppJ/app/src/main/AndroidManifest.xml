@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.StudentAppJ"
+        tools:targetApi="31">
+        <activity
+            android:name=".CalenderAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".CalenderViewHolder"
+            android:exported="false" />
+        <activity
+            android:name=".Calender2"
+            android:exported="false" />
+        <activity
+            android:name=".Sunfrag"
+            android:exported="false" />
+        <activity
+            android:name=".Satfrag"
+            android:exported="false" />
+        <activity
+            android:name=".Fridayfrag"
+            android:exported="false" />
+        <activity
+            android:name=".Thufrag"
+            android:exported="false" />
+        <activity
+            android:name=".Wedfrag"
+            android:exported="false" />
+        <activity
+            android:name=".Tuefrag"
+            android:exported="false" />
+        <activity
+            android:name=".MyViewPager"
+            android:exported="false" />
+        <activity
+            android:name=".Monfrag"
+            android:exported="false" />
+        <activity
+            android:name=".Calender"
+            android:exported="false" />
+        <activity
+            android:name=".User"
+            android:exported="false" />
+        <activity
+            android:name=".Contact"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SignupActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
